@@ -18,6 +18,7 @@ public class AccountController {
     @RequestMapping("/account/findAll")
     public String findAll(){
         System.out.println("Controller表现层：查询所有账户...");
+        List<Account> list = accountService.findAll();
         return "list";  //在视图解析器中配置了前缀后缀
     }
 }
