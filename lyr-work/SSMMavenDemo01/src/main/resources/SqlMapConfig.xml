@@ -5,16 +5,16 @@
         <environment id="mysql">
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
-                <property name="driver" value="oracle.jdbc.driver.OracleDriver"/>
-                <property name="url" value="jdbc:oracle:thin:@//localhost:1521/serviceName"/>
-                <property name="username" value="scott"/>
-                <property name="password" value="tiger"/>
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/ssm"/>
+                <property name="username" value="root"/>
+                <property name="password" value="1234"/>
             </dataSource>
         </environment>
     </environments>
     <!-- 使用的是注解 -->
     <mappers>
         <!-- <mapper class="com.gx.dao.IAccountdao"/> --> <!-- 该包下所有的dao接口都可以使用 -->
-        <package name="com.gx.dao"/>
+        <package name="com.lyr.dao"/>
     </mappers>
 </configuration>
