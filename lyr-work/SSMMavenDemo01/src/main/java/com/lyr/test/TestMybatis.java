@@ -1,7 +1,7 @@
 package com.lyr.test;
 
 import com.lyr.dao.AccountDao;
-import com.lyr.po.Account;
+import com.lyr.pojo.Account;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;

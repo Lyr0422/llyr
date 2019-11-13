@@ -1,4 +1,4 @@
-package com.lyr.po;
+package com.lyr.pojo;
 
 public class Account {
     private Integer id;

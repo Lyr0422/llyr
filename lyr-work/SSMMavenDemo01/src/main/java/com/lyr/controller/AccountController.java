@@ -1,6 +1,6 @@
 package com.lyr.controller;
 
-import com.lyr.po.Account;
+import com.lyr.pojo.Account;
 import com.lyr.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

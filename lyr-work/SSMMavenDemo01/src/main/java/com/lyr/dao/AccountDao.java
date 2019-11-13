@@ -1,6 +1,6 @@
 package com.lyr.dao;
 
-import com.lyr.po.Account;
+import com.lyr.pojo.Account;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
